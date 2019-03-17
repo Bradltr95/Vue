@@ -17,15 +17,3 @@ var app = new Vue({
     message: 'Hello Vue!'
   }
 })
-
-/* app2 = new Vue
- *
- * @element: #app-2 - set the vue element to the div element id for app-2. 
- * @data: message - message variable containing string. 
-*/
-var app2 = new Vue({
-	el: '#app-2', 
-	data: {
-		message: 'You loaded this page on ' + new Date().toLocaleString()
-	}
-})
